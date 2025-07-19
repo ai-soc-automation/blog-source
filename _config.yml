@@ -1,6 +1,6 @@
 title: "AI-SOC Automation Blog"
 description: "Insights, updates, and research from the AI-SOC Automation project."
-baseurl: "" # If using as a submodule in another repo, update if needed
+baseurl: ""
 url: "https://ai-soc-automation.github.io/blog-source"
 
 theme: minima

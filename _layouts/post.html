@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {% include header.html %}
+  <div class="post">
+    <h1>{{ page.title }}</h1>
+    <p><small>{{ page.date | date: "%B %d, %Y" }} by {{ page.author }}</small></p>
+    {{ content }}
+  </div>
+</body>
+</html>
